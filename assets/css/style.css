@@ -31,3 +31,69 @@ html{
   overflow-y: scroll; /* Enable vertical scrollbar */
   
 }
+
+/*=====color variables ===========*/
+:root {
+  --homee:linear-gradient(#5b5d96a7 , #ffffff 70%);
+  --herocontainer:linear-gradient(#d7d4df,#a8a3ad);
+  --first-color2:rgba(91, 41, 239, 0);
+  --first-color: #efab0c;
+  --first-color4: #dcdce1;
+  --second-color: #e7dbdb;
+  --third-color: #ffffff;
+  --black-color: #000000;
+  --dark-blue: #3e227a;
+  --bg-color: #ffffff;
+  --sg--color: gray;
+  --blur-element-color2: #e7dbdb00;
+  --blur-element-color: #e7dbdb;
+  --shadow-1: 0 0 20px 5px rgba(239, 236, 246, 0.5);
+  --shadow-2: 0 0 20px 5px rgb(232, 219, 219);
+  --header-l: #ffffff80;
+  --text-color-second:rgb(68, 68, 68);
+  --text-color-hover:rgb(40,91,212);
+  --first-shadow-color:rgba(0, 0, 0, 0.1);
+  --bgcolor:#222;
+  --secolorsubtxt:#3d7eae;
+  --secolorsubtxtdeep:#246ca0;
+  --footercolor:#e7dbdb;
+  --dpcircle:#8f889f;
+  --mail:#000000;
+  --footericon:#6300ae;
+  --scrollback:#e7dbdb;
+  --box-shadow-scroll: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+  --contact:#fff;
+  --h1big:rgba(0, 0, 0, 0.1);
+}
+
+/*=====dark mode ===========*/
+body.dark-mode {
+  --homee:#222;
+  --herocontainer:linear-gradient(#dedce4,#b3acb9);
+  --black-color: #ffffff;
+  --dark-blue: #6429ef;
+  --bg-color: #222;
+  --blur-element-color: #555;
+  --shadow-2: 0 0 20px 5px rgb(232, 219, 219, 0.3);
+  --header-l: #4f4f4f80;
+  --text-color-second:rgb(199, 199, 199);
+  --secolorsubtxt:#b0b0b0;
+  --footercolor:#4a425d;
+  --dpcircle:#464b54;
+  --mail:#a8a7a7;
+  --footericon:#b786ff;
+  --scrollback:#393939; 
+  --box-shadow-scroll: 9px 9px 33px #141414, -9px -9px 33px #434343;
+  --contact:#c9c9c9;
+  --h1big:rgba(255, 255, 255, 0.1);
+  --blur-element-color2: #555;
+  --first-color2:rgb(91, 41, 239);
+}
+
+body {
+  background-color: var(--bg-color);
+  transition: 0.3s;
+}
+.home {
+  background: var(--homee);
+}
