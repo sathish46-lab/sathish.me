@@ -89,11 +89,3 @@ body.dark-mode {
   --blur-element-color2: #555;
   --first-color2:rgb(91, 41, 239);
 }
-
-body {
-  background-color: var(--bg-color);
-  transition: 0.3s;
-}
-.home {
-  background: var(--homee);
-}
